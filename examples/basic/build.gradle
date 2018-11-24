@@ -1,0 +1,13 @@
+apply plugin: 'java'
+
+repositories {
+  google()
+  mavenCentral()
+}
+
+dependencies {
+  compile 'org.tensorflow:tensorflow:1.12.0'
+}
+
+apply plugin : 'application'
+mainClassName = 'org.tensorflow.contrib.examples.basic.Main'
