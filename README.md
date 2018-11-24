@@ -8,7 +8,11 @@ Java bindings.
 These are a collection of examples to make working with Java
 TensorFlow easier.
 
+
 ##Examples
 
 1. [`examples/basic`](examples/basic/README.md) - an introduction to
 low-level TensorFlow and its Java bindings.
+
+##Note
+This is not an officially supported Google product.
